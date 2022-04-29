@@ -277,6 +277,6 @@
                 </div>
             </section>
         </div>
-        <script src="main.js">
+        <script src="./js/main.js">
 </body>
 </html>
