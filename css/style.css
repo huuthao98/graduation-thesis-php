@@ -164,6 +164,8 @@ header.scrolled {
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
 
+
+
 header .container {
     display: flex;
     align-items: center;
@@ -296,8 +298,6 @@ header .toggle {
 }
 /*--------------nav-main--------------*/
 .nav-main  {
-    height: 100vh;
-
     margin-top: 8%;
     margin-left: 20%;
     margin-right: 30%;
@@ -370,6 +370,13 @@ input:hover {
     width: 100%;
     height: 50px;
     background-color: var(--bg-color-3);
+    margin-bottom: 10px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .input-disable.box{
@@ -383,7 +390,7 @@ input:hover {
 .header-question {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .number-question {
     font-size: 1.2rem;
@@ -396,13 +403,14 @@ input:hover {
 /*---------------BTN ADD NEW QUESTION---------------*/
 .btnAddNewQuestion .container {
     justify-content: center;
+    margin-bottom: 100px;
 }
 .btnAddNewQuestion .add-question:hover {
     background-color: var(--main-color-1);
     cursor: pointer;
 }
 
-/*----FORM CHECH BOX----*/
+/*----FORM CHECH ----*/
 
 .question-option-check {
     display: flex;
@@ -410,3 +418,7 @@ input:hover {
     margin-bottom: 10px;
 }
 
+/*----FORM CHECH GROUP----*/
+.radio-group .input-disable.box {
+    border-radius: 50%;
+}
