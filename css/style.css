@@ -260,8 +260,7 @@ header .toggle {
 
 
 /* ------------------*EMPTY STYLE-------------------*/
-.empty-question {
-}
+
 
 .empty-question .container {
     display: flex;
@@ -280,7 +279,7 @@ header .toggle {
     align-items: center;
     background-color: var(--bg-color-2);
 
-    margin-top: 10px;
+    /* margin-top: 1000px; */
     margin-bottom: 100px;
     padding: 10px 20px;
     border-radius: 30px;
@@ -307,16 +306,34 @@ header .toggle {
     padding: 10px 20px;
     border-radius: 30px;
 }
-.empty-question-continue i {
+.add-question-continue:hover {
+    color: var(--bg-color);
+}
+
+.add-question-continue {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color-2);
+
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.empty-question .add-question-continue:hover {
+    background-color: var(--main-color-1);
+    cursor: pointer;
+}
+.add-question-continue i {
     margin-left: 10px;
     font-size: 1.6rem;
 }
 
-.empty-question-continue.add-question:hover {
+.add-question-continue.add-question:hover {
     background-color: var(--main-color-1);
     cursor: pointer;
 }
-.empty-question-continue:hover {
+.add-question-continue:hover {
     color: var(--bg-color);
 }
 
